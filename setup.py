@@ -19,12 +19,14 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='fisk',
-    version='0.8.2',
+    version='0.8.3',
     description="library for fiscalization (Hrvatska) as defined in wsdl-1.1.2 and wsdl-1.2",
     long_description=long_description,
     url='https://github.com/kodmasin/fiskpy',
     author='Boris Tomic',
     author_email='boris@kodmasin.net',
+    maintainer='Mihael Murkovic',
+    maintainer_email='mihael@uvid.hr',
     license='Apache Software License',
     keywords='fiscalization tax',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),

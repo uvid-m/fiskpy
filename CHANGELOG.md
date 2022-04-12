@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.8.3
+
+- FINA DEMO CA 2020
+
 ## Version 0.8.2
 
 - Update setup.py (dependencies, classifiers)

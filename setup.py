@@ -19,7 +19,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='fisk',
-    version='0.8.3',
+    version='0.8.4',
     description="library for fiscalization (Hrvatska) as defined in wsdl-1.1.2 and wsdl-1.2",
     long_description=long_description,
     url='https://github.com/kodmasin/fiskpy',

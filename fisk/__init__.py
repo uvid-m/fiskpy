@@ -1014,7 +1014,8 @@ class Racun(FiskXMLElement):
                                        ("ZastKod", [XMLValidatorRegEx("^[a-f0-9]{32}$")]),
                                        ("NakDost", [boolVal, XMLValidatorRequired()]),
                                        ("ParagonBrRac", [XMLValidatorLen(1,100)]),
-                                       ("SpecNamj", [XMLValidatorLen(1,1000)]) ),
+                                       ("SpecNamj", [XMLValidatorLen(1,1000)]) ,
+                                       ("OibPrimateljaRacuna", [XMLValidatorRegEx("^\d{11}$")])),
                                 data = data)
         self.__dict__["key"] = key_file
         self.__dict__["key_pass"] = key_password
